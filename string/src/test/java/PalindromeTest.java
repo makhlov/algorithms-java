@@ -20,7 +20,7 @@ public class PalindromeTest {
         this.expected = expected;
     }
 
-    @Parameterized.Parameters(name = "{index}: palindrom-func's({0})={1}")
+    @Parameterized.Parameters(name = "{index}: palindrom-func's")
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
                 {"   a aa a", true},
