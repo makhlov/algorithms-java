@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="string" />
         <module name="math" />
+        <module name="set" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
