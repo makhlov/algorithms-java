@@ -32,6 +32,6 @@ public class DeleteDuplicatesTest {
 
     @Test
     public void deleteFromArrayUsingStream() {
-        assertThat(DeleteDuplicates.deleteFromArrayUsingStream(input), is(equalTo(expected)));
+        assertThat(DeleteDuplicates.deleteDuplicatesFromArrayUsingStream(input), is(equalTo(expected)));
     }
 }

@@ -20,7 +20,7 @@ public class DeleteDuplicates {
      * @param inputArray array with duplicate elements
      * @return array without duplicate elements
      */
-    public static int[] deleteFromArrayUsingStream(int[] inputArray) {
+    public static int[] deleteDuplicatesFromArrayUsingStream(int[] inputArray) {
         return Arrays.stream(inputArray).distinct().toArray();
     }
 }
