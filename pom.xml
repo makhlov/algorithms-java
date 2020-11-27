@@ -12,6 +12,7 @@
         <module>math</module>
         <module>string</module>
         <module>set</module>
+        <module>matrix</module>
     </modules>
 
     <build>
