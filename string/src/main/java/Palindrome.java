@@ -92,8 +92,8 @@ public final class Palindrome {
     /**
      * The method is used to remove excess spaces from a string and convert it to lowercase
      *
-     * @param inputStr Some string to check for palindrome
-     * @return Return {@code true} if input string is palindrome, else return {@code false}
+     * @param inputStr String in which you want to remove extra spaces and convert all letters to lowercase
+     * @return Processed string
      */
     private static String stringPreparation(String inputStr) {
         return inputStr.replaceAll("\\s+", "").toLowerCase();

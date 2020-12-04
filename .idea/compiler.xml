@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="string" />
         <module name="math" />
         <module name="set" />
+        <module name="string" />
+        <module name="matrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
