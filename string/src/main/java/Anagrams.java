@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @version 1.0
  * @since 2020-12-04
  */
-public class Anagrams {
+public final class Anagrams {
 
     private Anagrams() {
 
